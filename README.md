@@ -5,6 +5,13 @@ The main goal of this project is to implement the way of writing react.js , whic
 
 ! seraching for cities is not the best using the current API !
 
+```bash
+git clone [URL]
+cd [path of the project]
+npm i #To install the necessary modules
+npm start
+```
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

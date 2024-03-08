@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Josefin Sans", cursive;
+  font-size: 2rem;
+  height: 100vh;
+  color: #222;
+  background-color: #d9d0ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 112rem;
+  gap: 4rem;
+  padding: 4.5rem 0;
+  border: 2px solid #222;
+  outline: 2px solid #222;
+  outline-offset: 1.1rem;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 6rem;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+
+input {
+  font-family: inherit;
+  color: inherit;
+  font-size: 2rem;
+  background-color: #f0d2ce;
+  padding: 1.6rem 3.2rem;
+  border: none;
+  outline: none;
+  width: 32rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+}
+
+input:focus {
+  box-shadow: 0 3px 5px #2f2f2f9c;
+  transform: translate(0, -0.4rem);
+}
+
+.weather {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.day {
+  background-color: #a7f6fa56;
+  padding: 1.6rem 0 2rem;
+  width: 12.8rem;
+  border: solid 3px #207898;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  cursor: pointer;
+}
+
+.day span {
+  font-size: 5.2rem;
+}
+
+.day.important {
+  background-color: #ecc5c0;
+  outline: 2px solid #222;
+}
+
+.loader {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #3f3f3f;
+}
+
+button {
+  font-family: inherit;
+  font-size: 2rem;
+  padding: 1.2rem 2rem;
+  border: solid 2px rgb(255, 182, 45);
+  outline: none;
+  background-color: #f5d999;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
